@@ -1,7 +1,7 @@
 #checkdown.js
-## Custom Checkboxes and select inputs
+#### Custom Checkboxes and select inputs
 checkdown.js does not require any other libraries. Simply include 'checkdown.js' in your head tag and all of the checkbox & select  inputs will be converted to simple html structures which you can then style using CSS.
----
+----
 ###Checkbox
 When checked the 'checkdown-checkbox' div has a class of 'true'. Use this class to style the different states of the checkbox
 As shown with the 'checkbox' class, any classes on the checkbox input will also be added to the generated checkbox html
