@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Checkdown.js</title>
+	<link rel="stylesheet" href="demo.css">
+	<link rel="stylesheet" href="kevin.css">
+	<link rel="stylesheet" href="css/prism.css">
+	<script src="checkdown.js"></script>
+	<meta name="keywords" content="checkdown,js,javascript,select,input,checkbox,custom,style,thomas,cullen,design">
+	<meta name="description" content="Custom checkbox and select inputs">
+</head>
+<body>
+
+<section>
+	<h1 class="title">Checkdown.js</h1>
+	<span class="version">v 0.1</span>
+	<h3>Custom checkbox and select inputs</h3>
+	<a href="https://raw.github.com/Thomascullen92/Checkdown.js/master/checkdown.js" class="button">Download</a>
+</section>
+
+<section>
+	<h2>How does it work</h2>
+	<p>checkdown.js does not require any other libraries. Simply include 'checkdown.js' in your head tag and all of the checkbox & select  inputs will be converted to simple html structures which you can then style using CSS.</p>
+</section>
+
+<section>
+	<h2>Checkbox</h2>
+
+	<div class="conatiner">
+		<div class="col three">
+			<input type="checkbox" name="complete" class="checkbox">
+		</div>
+		<div class="col three">
+			<input type="checkbox" name="toggle" class="toggle" checked>
+		</div>
+		<div class="col three">
+			<input type="checkbox" name="complete" class="checkbox">
+		</div>
+		<div class="col three">
+			<input type="checkbox" name="toggle" class="toggle">
+		</div>
+		<div class="clear"></div>
+	</div>
+
+<div class="container">
+	<div class="description">
+		<p>When checked the 'checkdown-checkbox' div has a class of 'true'. Use this class to style the different states of the checkbox</p>
+		<p>As shown with the 'checkbox' class, any classes on the checkbox input will also be added to the generated checkbox html</p>
+	</div>
+
+<div class="code-example clearfix">
+<pre><code class="language-markup">&lt;input type="checkbox" name="complete" class="checkbox">
+</code></pre>
+<h4>is coverted to</h4>
+<pre><code class="language-markup">&lt;div class="checkdown-checkbox checkbox" data-name="complete">
+	&lt;div>&lt;/div>
+&lt;/div>
+</code></pre>
+</div>
+
+	<div class="clear"></div>
+</div>
+
+</section>
+
+<section>
+	<h2>Dropdowns</h2>
+
+	<select name="event[currency]" class="dropdown" data-placeholder="Choose a colour...">
+		<option value="blue">Blue</option>
+		<option value="red">Red</option>
+		<option value="purple">Purple</option>
+		<option value="orange">Orange</option>
+	</select>
+	
+<div class="container">
+	<div class="description">
+		<p>When open the 'checkdown-dropdown' div has a class of 'open'. Use this class to style the different states of the dropdown.</p>
+		<p>The default text on the dropdown comes from the placeholder data attribute which you add to the select input.</p>
+		<p>As shown with the 'dropdown' class, any classes on the select input will also be added to the generated dropdown html.</p>
+	</div>
+
+<div class="code-example clearfix">
+<pre><code class="language-markup">&lt;select name="colour" class="dropdown" data-placeholder="Choose a colour...">
+	&lt;option value="blue">Blue&lt;/option>
+	&lt;option value="red">Red&lt;/option>
+	&lt;option value="purple">Purple&lt;/option>
+	&lt;option value="orange">Orange&lt;/option>
+&lt;/select>
+</code></pre>
+<h4>is coverted to</h4>
+<pre><code class="language-markup">&lt;div class='checkdown-dropdown dropdown' data-name="colour">
+	&lt;div class='dropdown-toggle'>
+		&lt;span>Choose a colour...&lt;/span>
+		&lt;i>&lt;/i>
+	&lt;/div>
+	&lt;ul>
+		&lt;li data-value="blue">Blue&lt;/li>
+		&lt;li data-value="red">Red&lt;/li>
+		&lt;li data-value="purple">Purple&lt;/li>
+		&lt;li data-value="orange">Orange&lt;/li>
+	&lt;/ul>
+&lt;/div>
+</code></pre>
+</div>
+
+	<div class="clear"></div>
+</div>
+
+</section>
+<script src="js/prism.js"></script>
+<script>
+	Prism.highlightAll();
+</script>
+</body>
+</html>

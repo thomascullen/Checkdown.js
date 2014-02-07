@@ -1,0 +1,44 @@
+/*
+
+KEVIN CSS Framework
+by Thomas Cullen
+www.thomascullendesign.com
+
+*/
+
+/*RESET*/
+*{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*GRID*/
+.container{
+	margin:0 auto;
+	max-width:1020px;
+	text-align: left;
+}
+
+.col{
+	margin:0 1.4705%;
+	float:left;
+}
+
+.col.one{width:5.3921%;} /*55*/
+.col.two{width:13.7254%;} /*140*/
+.col.three{width:22.0588%;} /*225*/
+.col.four{width:30.3921%;} /*310*/
+.col.five{width:38.7254%;} /*395*/
+.col.six{width:47.05882352941176%;} /*480*/
+.col.seven{width:55.392156862745104%;} /*565*/
+.col.eight{width:63.725490196078425%;} /*650*/
+.col.nine{width:72.05882352941177%;} /*735*/
+.col.ten{width:80.3921568627451%;} /*820*/
+.col.eleven{width:88.72549019607843%;} /*905*/
+.col.twelve{width:97.05882352941177%;} /*990*/
+
+/*MISC*/
+.clear{clear:both;}
