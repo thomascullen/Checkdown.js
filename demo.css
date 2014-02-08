@@ -88,11 +88,11 @@ section .container{
 	padding:50px 0;
 }
 
-section:nth-child(even) .code-example pre{
+section:nth-child(odd) .code-example pre{
 	background:#FFF;
 }
 
-section:nth-child(even) .code-example h4{
+section:nth-child(odd) .code-example h4{
 	background:#FFF;
 }
 
