@@ -7,7 +7,7 @@ section{
 	text-align: center;
 }
 
-section:nth-child(even){
+section:nth-child(odd){
 	background:#eee;
 }
 
