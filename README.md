@@ -1,7 +1,7 @@
 #checkdown.js
-#### Custom Checkboxes and select inputs
+#### Custom checkboxes and select inputs
 
-checkdown.js does not require any other libraries. Simply include 'checkdown.js' in your head tag and all of the checkbox & select  inputs will be converted to simple html structures which you can then style using CSS.
+checkdown.js does not require any other libraries. Simply include 'checkdown.js' in your head tag and all of the checkbox & select  inputs will be converted to simple html structures which you can then style using CSS. The input elements will be hidden and their values will be controlled with the new html structures.
 
 
 ###Checkbox
